@@ -11,7 +11,7 @@
 
 `hang` is micro helper function that will guarantee that your callbacks are
 called async. The returned function can be called in sync or completely async.
-When it's called in `sync` we will "hang" execution in a `setImmidiate` or
+When it's called in `sync` we will "hang" execution in a `setImmediate` or
 `setTimeout(0)` to ensure that it's called in async.
 
 ## Installation
